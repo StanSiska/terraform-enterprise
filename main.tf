@@ -47,7 +47,7 @@ provider "aws" {
   region     = "${var.aws_region}"
 }
 
-resource "aws_instance" "web" {
+reso,urce "aws_instance" "web" {
   ami                    = "ami-5a922335"
   count                  = "${var.count_num}"
   instance_type          = "t2.micro"
