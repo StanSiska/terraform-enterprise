@@ -38,7 +38,7 @@ variable "aws_region" {
 }
 
 variable "count_num" {
-  default = "2"
+  default = "3"
 }
 
 provider "aws" {
